@@ -1,0 +1,28 @@
+.sidebar {
+    -fx-background-color: #308113CC;
+    -fx-pref-width: 0px;
+}
+
+
+.button-icon {
+    -fx-background-color: transparent;
+    -fx-padding: 5px;
+    -fx-border-color: transparent;
+    -fx-graphic: url("/images/candado.png");
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+
+.button-icon:hover {
+    -fx-background-color: #e0e0e0;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 10, 0.0, 0, 4);
+}
+
+
+.sidebar-item:hover {
+    -fx-background-color: #2E8B57;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.0, 0, 4);
+    -fx-text-fill: white;
+    -fx-transition: all 0.3s ease;
+}
